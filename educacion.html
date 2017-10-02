@@ -1,12 +1,120 @@
  <!DOCTYPE html>
 <html>
 
-<head>
-  <title>Educación</title>
-</head>
+  <head>
+    <meta charset="UTF-8">
+    <title>Educación</title>
+    <img src="imagenes/nombre.svg" width="250px">
+  </head>
 
-<body>
-The content of the document......
-</body>
+  <body>
+        <H1>Hoja de Vida</H1>
+        <H2>Luis Fernando Prieto Jimenez</H2>
+        <H3>Sogamoso, Junio 11 de 1983</H3>
 
-</html> 
+        <p>
+        	<a href="index.html">Inicio</a> | <a href="educacion.html">Educación</a> | <a href="experiencia.html">Experiencia</a>
+        </p>
+
+        <p>
+          <H2>Educación</H2>
+        </p>
+
+
+        <table border="1">
+          <thead>
+            <tr>
+    					<th>Año</th>
+    					<th>Institución</th>
+              <th>Lugar</th>
+              <th>¿Culmino?</th>
+    				</tr>
+          </thead>
+          <tbody>
+            <tr>
+    					<td>2016</td>
+    					<td>Universidad Piloto de Colombia</td>
+              <td>Bogotá D.C.</td>
+    					<td>No</td>
+    				</tr>
+
+            <tr>
+    					<td>2011</td>
+    					<td>Universidad Industrial de Santander</td>
+              <td>Bucaramanga - Santender</td>
+    					<td>Si</td>
+    				</tr>
+
+            <tr>
+    					<td>2001</td>
+    					<td>Servicio Nacional de Aprendizaje - SENA</td>
+              <td>Sogamoso - Boyacá</td>
+    					<td>Si</td>
+    				</tr>
+
+            <tr>
+    					<td>1998</td>
+    					<td>Colegio Nacional de bachillerato técnico "Gustavo Jiménez"</td>
+              <td>Sogamoso - Boyacá</td>
+    					<td>Si</td>
+    				</tr>
+
+            <tr>
+    					<td>1992</td>
+    					<td>Colegio Campoamor LaSalle</td>
+              <td>Sogamoso - Boyacá</td>
+    					<td>Si</td>
+    				</tr>
+
+          </tbody>
+        </table>
+        <br>
+        <form autocomplete="on" name="ingresar_educacion">
+          <fieldset>
+            <legend>Ingresar estudio</legend>
+            <label for="ano">año</label>
+            <select name="ano_sel">
+      				<option value="2017">2017</option>
+      				<option value="2016">2016</option>
+      				<option value="2015">2015</option>
+              <option value="2014">2014</option>
+              <option value="2013">2013</option>
+              <option value="2012">2012</option>
+              <option value="2011">2011</option>
+              <option value="2010">2010</option>
+              <option value="2009">2009</option>
+              <option value="2008">2008</option>
+              <option value="2007">2007</option>
+              <option value="2006">2006</option>
+              <option value="2005">2005</option>
+              <option value="2004">2004</option>
+              <option value="2003">2003</option>
+              <option value="2002">2002</option>
+              <option value="2001">2001</option>
+              <option value=2000>2000</option>
+              <option value="1999">1999</option>
+              <option value="1998">1998</option>
+              <option value="1997">1997</option>
+      			</select>
+            <br>
+            <label for="institucion">Institución</label>
+            <input type="text" required><br>
+            <label for="Lugar">Lugar</label>
+            <input type="text"><br>
+            <label for="culmino">¿Culminó?</label>
+            <input type="radio" name="culmino">Si
+            <input type="radio" name="culmino">No<br>
+            <input type="submit" value="Enviar">
+          </fieldset>
+        </form>
+    <br>
+    <br>
+    <footer>
+      Calle 154 No. 91 – 56 apto 303 Torre 10 &nbsp;&nbsp; <img src="imagenes/vineta.svg" width="10px">&nbsp;<img src="imagenes/cel.svg" width="20px">&nbsp;cel. 3175027179 <br>
+      <img src="imagenes/vineta.svg" width="10px">&nbsp;<img src="imagenes/phone.svg" width="20px">&nbsp;+57 1 8078396 &nbsp;&nbsp;<img src="imagenes/vineta.svg" width="10px">&nbsp;<img src="imagenes/mail.svg" width="20px">&nbsp;luisfer74081@gmail.com, luisfer74081@yahoo.es
+    </footer>
+
+
+  </body>
+
+</html>
